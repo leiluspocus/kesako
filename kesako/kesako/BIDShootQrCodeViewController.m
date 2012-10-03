@@ -6,13 +6,10 @@
 //  Copyright (c) 2012 URI. All rights reserved.
 //
 
-#import "BIDShotQrCodeViewController.h"
+#import "BIDShootQrCodeViewController.h"
+ 
 
-@interface BIDShotQrCodeViewController ()
-
-@end
-
-@implementation BIDShotQrCodeViewController
+@implementation BIDShootQrCodeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

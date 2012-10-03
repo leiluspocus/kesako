@@ -13,8 +13,8 @@
 		30A77904161BCA7200443CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A77902161BCA7200443CE4 /* InfoPlist.strings */; };
 		30A77906161BCA7200443CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A77905161BCA7200443CE4 /* main.m */; };
 		30A7790A161BCA7200443CE4 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A77909161BCA7200443CE4 /* BIDAppDelegate.m */; };
-		30A77918161BCB4C00443CE4 /* BIDShotQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A77916161BCB4C00443CE4 /* BIDShotQrCodeViewController.m */; };
-		30A77919161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A77917161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib */; };
+		30A77918161BCB4C00443CE4 /* BIDShootQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A77916161BCB4C00443CE4 /* BIDShootQrCodeViewController.m */; };
+		30A77919161BCB4C00443CE4 /* BIDShootQrCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A77917161BCB4C00443CE4 /* BIDShootQrCodeViewController.xib */; };
 		30A7791D161BCB7500443CE4 /* BIDLastCheckedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A7791B161BCB7500443CE4 /* BIDLastCheckedViewController.m */; };
 		30A7791E161BCB7500443CE4 /* BIDLastCheckedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A7791C161BCB7500443CE4 /* BIDLastCheckedViewController.xib */; };
 		30A77920161BCCA200443CE4 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A7791F161BCCA200443CE4 /* TabBarController.xib */; };
@@ -33,9 +33,9 @@
 		30A77907161BCA7200443CE4 /* kesako-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kesako-Prefix.pch"; sourceTree = "<group>"; };
 		30A77908161BCA7200443CE4 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
 		30A77909161BCA7200443CE4 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
-		30A77915161BCB4C00443CE4 /* BIDShotQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDShotQrCodeViewController.h; sourceTree = "<group>"; };
-		30A77916161BCB4C00443CE4 /* BIDShotQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDShotQrCodeViewController.m; sourceTree = "<group>"; };
-		30A77917161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDShotQrCodeViewController.xib; sourceTree = "<group>"; };
+		30A77915161BCB4C00443CE4 /* BIDShootQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDShootQrCodeViewController.h; sourceTree = "<group>"; };
+		30A77916161BCB4C00443CE4 /* BIDShootQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDShootQrCodeViewController.m; sourceTree = "<group>"; };
+		30A77917161BCB4C00443CE4 /* BIDShootQrCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDShootQrCodeViewController.xib; sourceTree = "<group>"; };
 		30A7791A161BCB7500443CE4 /* BIDLastCheckedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDLastCheckedViewController.h; sourceTree = "<group>"; };
 		30A7791B161BCB7500443CE4 /* BIDLastCheckedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDLastCheckedViewController.m; sourceTree = "<group>"; };
 		30A7791C161BCB7500443CE4 /* BIDLastCheckedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDLastCheckedViewController.xib; sourceTree = "<group>"; };
@@ -90,12 +90,12 @@
 			children = (
 				30A77925161BD6E300443CE4 /* monalisa.png */,
 				30A77921161BD1AE00443CE4 /* logo.png */,
-				30A77915161BCB4C00443CE4 /* BIDShotQrCodeViewController.h */,
+				30A77915161BCB4C00443CE4 /* BIDShootQrCodeViewController.h */,
 				30A7791A161BCB7500443CE4 /* BIDLastCheckedViewController.h */,
 				30A7791B161BCB7500443CE4 /* BIDLastCheckedViewController.m */,
 				30A7791C161BCB7500443CE4 /* BIDLastCheckedViewController.xib */,
-				30A77916161BCB4C00443CE4 /* BIDShotQrCodeViewController.m */,
-				30A77917161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib */,
+				30A77916161BCB4C00443CE4 /* BIDShootQrCodeViewController.m */,
+				30A77917161BCB4C00443CE4 /* BIDShootQrCodeViewController.xib */,
 				30A77908161BCA7200443CE4 /* BIDAppDelegate.h */,
 				30A77909161BCA7200443CE4 /* BIDAppDelegate.m */,
 				30A77900161BCA7200443CE4 /* Supporting Files */,
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A77904161BCA7200443CE4 /* InfoPlist.strings in Resources */,
-				30A77919161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib in Resources */,
+				30A77919161BCB4C00443CE4 /* BIDShootQrCodeViewController.xib in Resources */,
 				30A7791E161BCB7500443CE4 /* BIDLastCheckedViewController.xib in Resources */,
 				30A77920161BCCA200443CE4 /* TabBarController.xib in Resources */,
 				30A77922161BD1AE00443CE4 /* logo.png in Resources */,
@@ -185,7 +185,7 @@
 			files = (
 				30A77906161BCA7200443CE4 /* main.m in Sources */,
 				30A7790A161BCA7200443CE4 /* BIDAppDelegate.m in Sources */,
-				30A77918161BCB4C00443CE4 /* BIDShotQrCodeViewController.m in Sources */,
+				30A77918161BCB4C00443CE4 /* BIDShootQrCodeViewController.m in Sources */,
 				30A7791D161BCB7500443CE4 /* BIDLastCheckedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +294,7 @@
 				30A7790F161BCA7200443CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

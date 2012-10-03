@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDShotQrCodeViewController : UIViewController
+@interface BIDShootQrCodeViewController : UIViewController
 
 @end
