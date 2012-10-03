@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30A77897161BBC8200443CE4"
+               BlueprintIdentifier = "30A778F4161BCA7200443CE4"
                BuildableName = "kesako.app"
                BlueprintName = "kesako"
                ReferencedContainer = "container:kesako.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30A77897161BBC8200443CE4"
+            BlueprintIdentifier = "30A778F4161BCA7200443CE4"
             BuildableName = "kesako.app"
             BlueprintName = "kesako"
             ReferencedContainer = "container:kesako.xcodeproj">
@@ -51,7 +51,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30A77897161BBC8200443CE4"
+            BlueprintIdentifier = "30A778F4161BCA7200443CE4"
             BuildableName = "kesako.app"
             BlueprintName = "kesako"
             ReferencedContainer = "container:kesako.xcodeproj">
@@ -69,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30A77897161BBC8200443CE4"
+            BlueprintIdentifier = "30A778F4161BCA7200443CE4"
             BuildableName = "kesako.app"
             BlueprintName = "kesako"
             ReferencedContainer = "container:kesako.xcodeproj">

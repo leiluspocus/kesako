@@ -1,5 +1,5 @@
 //
-//  BIDViewController.h
+//  BIDShotQrCodeViewController.h
 //  kesako
 //
 //  Created by Laïla Atrmouh on 02/10/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDViewController : UIViewController
+@interface BIDShotQrCodeViewController : UIViewController
 
 @end

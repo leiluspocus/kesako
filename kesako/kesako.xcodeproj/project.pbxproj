@@ -7,93 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30A7789D161BBC8200443CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A7789C161BBC8200443CE4 /* UIKit.framework */; };
-		30A7789F161BBC8200443CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A7789E161BBC8200443CE4 /* Foundation.framework */; };
-		30A778A1161BBC8200443CE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778A0161BBC8200443CE4 /* CoreGraphics.framework */; };
-		30A778A7161BBC8200443CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A778A5161BBC8200443CE4 /* InfoPlist.strings */; };
-		30A778A9161BBC8200443CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A778A8161BBC8200443CE4 /* main.m */; };
-		30A778AD161BBC8200443CE4 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A778AC161BBC8200443CE4 /* BIDAppDelegate.m */; };
-		30A778B0161BBC8200443CE4 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A778AF161BBC8200443CE4 /* BIDViewController.m */; };
-		30A778B3161BBC8200443CE4 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A778B1161BBC8200443CE4 /* BIDViewController.xib */; };
+		30A778FA161BCA7200443CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778F9161BCA7200443CE4 /* UIKit.framework */; };
+		30A778FC161BCA7200443CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778FB161BCA7200443CE4 /* Foundation.framework */; };
+		30A778FE161BCA7200443CE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778FD161BCA7200443CE4 /* CoreGraphics.framework */; };
+		30A77904161BCA7200443CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A77902161BCA7200443CE4 /* InfoPlist.strings */; };
+		30A77906161BCA7200443CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A77905161BCA7200443CE4 /* main.m */; };
+		30A7790A161BCA7200443CE4 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A77909161BCA7200443CE4 /* BIDAppDelegate.m */; };
+		30A77918161BCB4C00443CE4 /* BIDShotQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A77916161BCB4C00443CE4 /* BIDShotQrCodeViewController.m */; };
+		30A77919161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A77917161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib */; };
+		30A7791D161BCB7500443CE4 /* BIDLastCheckedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A7791B161BCB7500443CE4 /* BIDLastCheckedViewController.m */; };
+		30A7791E161BCB7500443CE4 /* BIDLastCheckedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A7791C161BCB7500443CE4 /* BIDLastCheckedViewController.xib */; };
+		30A77920161BCCA200443CE4 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A7791F161BCCA200443CE4 /* TabBarController.xib */; };
+		30A77922161BD1AE00443CE4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A77921161BD1AE00443CE4 /* logo.png */; };
+		30A77926161BD6E300443CE4 /* monalisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A77925161BD6E300443CE4 /* monalisa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30A77898161BBC8200443CE4 /* kesako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kesako.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30A7789C161BBC8200443CE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		30A7789E161BBC8200443CE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		30A778A0161BBC8200443CE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		30A778A4161BBC8200443CE4 /* kesako-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kesako-Info.plist"; sourceTree = "<group>"; };
-		30A778A6161BBC8200443CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		30A778A8161BBC8200443CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30A778AA161BBC8200443CE4 /* kesako-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kesako-Prefix.pch"; sourceTree = "<group>"; };
-		30A778AB161BBC8200443CE4 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
-		30A778AC161BBC8200443CE4 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
-		30A778AE161BBC8200443CE4 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
-		30A778AF161BBC8200443CE4 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
-		30A778B2161BBC8200443CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		30A778F5161BCA7200443CE4 /* kesako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kesako.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A778F9161BCA7200443CE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30A778FB161BCA7200443CE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30A778FD161BCA7200443CE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30A77901161BCA7200443CE4 /* kesako-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kesako-Info.plist"; sourceTree = "<group>"; };
+		30A77903161BCA7200443CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30A77905161BCA7200443CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30A77907161BCA7200443CE4 /* kesako-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kesako-Prefix.pch"; sourceTree = "<group>"; };
+		30A77908161BCA7200443CE4 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		30A77909161BCA7200443CE4 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		30A77915161BCB4C00443CE4 /* BIDShotQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDShotQrCodeViewController.h; sourceTree = "<group>"; };
+		30A77916161BCB4C00443CE4 /* BIDShotQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDShotQrCodeViewController.m; sourceTree = "<group>"; };
+		30A77917161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDShotQrCodeViewController.xib; sourceTree = "<group>"; };
+		30A7791A161BCB7500443CE4 /* BIDLastCheckedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDLastCheckedViewController.h; sourceTree = "<group>"; };
+		30A7791B161BCB7500443CE4 /* BIDLastCheckedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDLastCheckedViewController.m; sourceTree = "<group>"; };
+		30A7791C161BCB7500443CE4 /* BIDLastCheckedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDLastCheckedViewController.xib; sourceTree = "<group>"; };
+		30A7791F161BCCA200443CE4 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		30A77921161BD1AE00443CE4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		30A77925161BD6E300443CE4 /* monalisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monalisa.png; path = ../monalisa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30A77895161BBC8200443CE4 /* Frameworks */ = {
+		30A778F2161BCA7200443CE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A7789D161BBC8200443CE4 /* UIKit.framework in Frameworks */,
-				30A7789F161BBC8200443CE4 /* Foundation.framework in Frameworks */,
-				30A778A1161BBC8200443CE4 /* CoreGraphics.framework in Frameworks */,
+				30A778FA161BCA7200443CE4 /* UIKit.framework in Frameworks */,
+				30A778FC161BCA7200443CE4 /* Foundation.framework in Frameworks */,
+				30A778FE161BCA7200443CE4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30A7788D161BBC8200443CE4 = {
+		30A778EA161BCA7200443CE4 = {
 			isa = PBXGroup;
 			children = (
-				30A778A2161BBC8200443CE4 /* kesako */,
-				30A7789B161BBC8200443CE4 /* Frameworks */,
-				30A77899161BBC8200443CE4 /* Products */,
+				30A778FF161BCA7200443CE4 /* kesako */,
+				30A778F8161BCA7200443CE4 /* Frameworks */,
+				30A778F6161BCA7200443CE4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30A77899161BBC8200443CE4 /* Products */ = {
+		30A778F6161BCA7200443CE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30A77898161BBC8200443CE4 /* kesako.app */,
+				30A778F5161BCA7200443CE4 /* kesako.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30A7789B161BBC8200443CE4 /* Frameworks */ = {
+		30A778F8161BCA7200443CE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30A7789C161BBC8200443CE4 /* UIKit.framework */,
-				30A7789E161BBC8200443CE4 /* Foundation.framework */,
-				30A778A0161BBC8200443CE4 /* CoreGraphics.framework */,
+				30A778F9161BCA7200443CE4 /* UIKit.framework */,
+				30A778FB161BCA7200443CE4 /* Foundation.framework */,
+				30A778FD161BCA7200443CE4 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30A778A2161BBC8200443CE4 /* kesako */ = {
+		30A778FF161BCA7200443CE4 /* kesako */ = {
 			isa = PBXGroup;
 			children = (
-				30A778AB161BBC8200443CE4 /* BIDAppDelegate.h */,
-				30A778AC161BBC8200443CE4 /* BIDAppDelegate.m */,
-				30A778AE161BBC8200443CE4 /* BIDViewController.h */,
-				30A778AF161BBC8200443CE4 /* BIDViewController.m */,
-				30A778B1161BBC8200443CE4 /* BIDViewController.xib */,
-				30A778A3161BBC8200443CE4 /* Supporting Files */,
+				30A77925161BD6E300443CE4 /* monalisa.png */,
+				30A77921161BD1AE00443CE4 /* logo.png */,
+				30A77915161BCB4C00443CE4 /* BIDShotQrCodeViewController.h */,
+				30A7791A161BCB7500443CE4 /* BIDLastCheckedViewController.h */,
+				30A7791B161BCB7500443CE4 /* BIDLastCheckedViewController.m */,
+				30A7791C161BCB7500443CE4 /* BIDLastCheckedViewController.xib */,
+				30A77916161BCB4C00443CE4 /* BIDShotQrCodeViewController.m */,
+				30A77917161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib */,
+				30A77908161BCA7200443CE4 /* BIDAppDelegate.h */,
+				30A77909161BCA7200443CE4 /* BIDAppDelegate.m */,
+				30A77900161BCA7200443CE4 /* Supporting Files */,
+				30A7791F161BCCA200443CE4 /* TabBarController.xib */,
 			);
 			path = kesako;
 			sourceTree = "<group>";
 		};
-		30A778A3161BBC8200443CE4 /* Supporting Files */ = {
+		30A77900161BCA7200443CE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				30A778A4161BBC8200443CE4 /* kesako-Info.plist */,
-				30A778A5161BBC8200443CE4 /* InfoPlist.strings */,
-				30A778A8161BBC8200443CE4 /* main.m */,
-				30A778AA161BBC8200443CE4 /* kesako-Prefix.pch */,
+				30A77901161BCA7200443CE4 /* kesako-Info.plist */,
+				30A77902161BCA7200443CE4 /* InfoPlist.strings */,
+				30A77905161BCA7200443CE4 /* main.m */,
+				30A77907161BCA7200443CE4 /* kesako-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30A77897161BBC8200443CE4 /* kesako */ = {
+		30A778F4161BCA7200443CE4 /* kesako */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30A778B6161BBC8200443CE4 /* Build configuration list for PBXNativeTarget "kesako" */;
+			buildConfigurationList = 30A7790D161BCA7200443CE4 /* Build configuration list for PBXNativeTarget "kesako" */;
 			buildPhases = (
-				30A77894161BBC8200443CE4 /* Sources */,
-				30A77895161BBC8200443CE4 /* Frameworks */,
-				30A77896161BBC8200443CE4 /* Resources */,
+				30A778F1161BCA7200443CE4 /* Sources */,
+				30A778F2161BCA7200443CE4 /* Frameworks */,
+				30A778F3161BCA7200443CE4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,82 +132,79 @@
 			);
 			name = kesako;
 			productName = kesako;
-			productReference = 30A77898161BBC8200443CE4 /* kesako.app */;
+			productReference = 30A778F5161BCA7200443CE4 /* kesako.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30A7788F161BBC8200443CE4 /* Project object */ = {
+		30A778EC161BCA7200443CE4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BID;
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = URI;
 			};
-			buildConfigurationList = 30A77892161BBC8200443CE4 /* Build configuration list for PBXProject "kesako" */;
+			buildConfigurationList = 30A778EF161BCA7200443CE4 /* Build configuration list for PBXProject "kesako" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 30A7788D161BBC8200443CE4;
-			productRefGroup = 30A77899161BBC8200443CE4 /* Products */;
+			mainGroup = 30A778EA161BCA7200443CE4;
+			productRefGroup = 30A778F6161BCA7200443CE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30A77897161BBC8200443CE4 /* kesako */,
+				30A778F4161BCA7200443CE4 /* kesako */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30A77896161BBC8200443CE4 /* Resources */ = {
+		30A778F3161BCA7200443CE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A778A7161BBC8200443CE4 /* InfoPlist.strings in Resources */,
-				30A778B3161BBC8200443CE4 /* BIDViewController.xib in Resources */,
+				30A77904161BCA7200443CE4 /* InfoPlist.strings in Resources */,
+				30A77919161BCB4C00443CE4 /* BIDShotQrCodeViewController.xib in Resources */,
+				30A7791E161BCB7500443CE4 /* BIDLastCheckedViewController.xib in Resources */,
+				30A77920161BCCA200443CE4 /* TabBarController.xib in Resources */,
+				30A77922161BD1AE00443CE4 /* logo.png in Resources */,
+				30A77926161BD6E300443CE4 /* monalisa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30A77894161BBC8200443CE4 /* Sources */ = {
+		30A778F1161BCA7200443CE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A778A9161BBC8200443CE4 /* main.m in Sources */,
-				30A778AD161BBC8200443CE4 /* BIDAppDelegate.m in Sources */,
-				30A778B0161BBC8200443CE4 /* BIDViewController.m in Sources */,
+				30A77906161BCA7200443CE4 /* main.m in Sources */,
+				30A7790A161BCA7200443CE4 /* BIDAppDelegate.m in Sources */,
+				30A77918161BCB4C00443CE4 /* BIDShotQrCodeViewController.m in Sources */,
+				30A7791D161BCB7500443CE4 /* BIDLastCheckedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30A778A5161BBC8200443CE4 /* InfoPlist.strings */ = {
+		30A77902161BCA7200443CE4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30A778A6161BBC8200443CE4 /* en */,
+				30A77903161BCA7200443CE4 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		30A778B1161BBC8200443CE4 /* BIDViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30A778B2161BBC8200443CE4 /* en */,
-			);
-			name = BIDViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		30A778B4161BBC8200443CE4 /* Debug */ = {
+		30A7790B161BCA7200443CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		30A778B5161BBC8200443CE4 /* Release */ = {
+		30A7790C161BCA7200443CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +253,7 @@
 			};
 			name = Release;
 		};
-		30A778B7161BBC8200443CE4 /* Debug */ = {
+		30A7790E161BCA7200443CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -250,7 +264,7 @@
 			};
 			name = Debug;
 		};
-		30A778B8161BBC8200443CE4 /* Release */ = {
+		30A7790F161BCA7200443CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -264,24 +278,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30A77892161BBC8200443CE4 /* Build configuration list for PBXProject "kesako" */ = {
+		30A778EF161BCA7200443CE4 /* Build configuration list for PBXProject "kesako" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30A778B4161BBC8200443CE4 /* Debug */,
-				30A778B5161BBC8200443CE4 /* Release */,
+				30A7790B161BCA7200443CE4 /* Debug */,
+				30A7790C161BCA7200443CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30A778B6161BBC8200443CE4 /* Build configuration list for PBXNativeTarget "kesako" */ = {
+		30A7790D161BCA7200443CE4 /* Build configuration list for PBXNativeTarget "kesako" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30A778B7161BBC8200443CE4 /* Debug */,
-				30A778B8161BBC8200443CE4 /* Release */,
+				30A7790E161BCA7200443CE4 /* Debug */,
+				30A7790F161BCA7200443CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30A7788F161BBC8200443CE4 /* Project object */;
+	rootObject = 30A778EC161BCA7200443CE4 /* Project object */;
 }
