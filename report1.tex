@@ -21,12 +21,12 @@
 \rule[0.5ex]{\textwidth}{0.1mm}
 
 \section{Introduction}  
-\emph{Kesako?} is a new kind of audioguide for museums and other expositions. The purpose of the project is to get informations about artworks by scanning QR Code. Indeed, each QR Code is linked to a painting, a photography, or more generally an artwork. 
+\emph{Kesako?} is a new kind of audioguide for museums and other expositions. The purpose of the project is to get information about artworks by scanning QR Code. Indeed, each QR Code is linked to a painting, a photography, or more generally an artwork. 
 
 \section{Functionalities}
 With this application, a user can :
 \begin{itemize}
-\item Scan a QRCode to get more informations about an artwork
+\item Scan a QRCode to get more information about an artwork
 \item See the last 5 scanned artworks
 \end {itemize}
 
@@ -48,7 +48,7 @@ QRCode is the trademark for a type of barcode which consists of black pixels arr
 \end{itemize}  
 There is a library ZXing, which allow the reading of QR Codes ( http://code.google.com/p/zxing/ ).  
 
- \subsection{Where are the informations about the artworks ?}
+ \subsection{Where are the information about the artworks ?}
 The informations about the artworks will be stored in an XML file, which will be read at the launch of the application. XML is better to use in order to keep the application the more generic as possible. Indeed, XML is a very widespread technology, each museum can feed the application with its own file. The structure of the XML file would be the following: 
 \begin{lstlisting}
 <artwork>
@@ -79,7 +79,7 @@ These interfaces are not fixed, but the two screens give a general idea of the d
 \begin{figure}[!h] %on ouvre l'environnement figure
 \centering
 \includegraphics[width=4cm]{2.jpg} %ou image.png, .jpeg etc.
-\caption{Second view of the application, informations about the artwork associated with the scanned QRCode} %la légende
+\caption{Second view of the application, information about the artwork associated with the scanned QRCode} %la légende
 \label{api} %l'étiquette pour faire référence à cette image
 \end{figure} %on ferme l'environnement figure
  
