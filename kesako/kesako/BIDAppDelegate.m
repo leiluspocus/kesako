@@ -10,15 +10,13 @@
 
 @implementation BIDAppDelegate
 
-@synthesize window = _window;
-@synthesize rootController;
-
+@synthesize window = _window; 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // Override point for customization after app launch
-    [[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];
-    [self.window addSubview:rootController.view];
+    [[NSBundle mainBundle] loadNibNamed:@"MainViewController" owner:self options:nil];
+    //[self.window addSubview:rootController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
