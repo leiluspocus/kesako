@@ -41,4 +41,12 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)scanPressed:(id)sender {
+}
+
+- (IBAction)lastViewedPressed:(id)sender {
+}
+
+- (IBAction)settingsPressed:(id)sender {
+}
 @end

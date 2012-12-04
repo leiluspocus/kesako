@@ -18,7 +18,8 @@
 		3078F10F164AEF940064B3D3 /* lastitemsviewed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3078F10E164AEF940064B3D3 /* lastitemsviewed.png */; };
 		3078F111164AF47B0064B3D3 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3078F110164AF47B0064B3D3 /* settings.png */; };
 		3078F113164AF5BD0064B3D3 /* ScanQrCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3078F112164AF5BD0064B3D3 /* ScanQrCodeView.xib */; };
-		3078F116164AF77F0064B3D3 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3078F115164AF77F0064B3D3 /* MainViewController.mm */; };
+		3078F116164AF77F0064B3D3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3078F115164AF77F0064B3D3 /* MainViewController.m */; };
+		308296F0166E8F530077FD6A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 308296EF166E8F530077FD6A /* logo.png */; };
 		30A778FA161BCA7200443CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778F9161BCA7200443CE4 /* UIKit.framework */; };
 		30A778FC161BCA7200443CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778FB161BCA7200443CE4 /* Foundation.framework */; };
 		30A778FE161BCA7200443CE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778FD161BCA7200443CE4 /* CoreGraphics.framework */; };
@@ -29,7 +30,6 @@
 		30A77919161BCB4C00443CE4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A77917161BCB4C00443CE4 /* MainViewController.xib */; };
 		30A7791D161BCB7500443CE4 /* ScannedItemViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30A7791B161BCB7500443CE4 /* ScannedItemViewController.mm */; };
 		30A7791E161BCB7500443CE4 /* ScannedItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A7791C161BCB7500443CE4 /* ScannedItemView.xib */; };
-		30A77922161BD1AE00443CE4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A77921161BD1AE00443CE4 /* logo.png */; };
 		30A77926161BD6E300443CE4 /* monalisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A77925161BD6E300443CE4 /* monalisa.png */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +63,8 @@
 		3078F110164AF47B0064B3D3 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = SOURCE_ROOT; };
 		3078F112164AF5BD0064B3D3 /* ScanQrCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanQrCodeView.xib; sourceTree = "<group>"; };
 		3078F114164AF77F0064B3D3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		3078F115164AF77F0064B3D3 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
+		3078F115164AF77F0064B3D3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		308296EF166E8F530077FD6A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		309A2BA21652F1E600BD6A41 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		30A778F5161BCA7200443CE4 /* kesako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kesako.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A778F9161BCA7200443CE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -81,7 +82,6 @@
 		30A7791A161BCB7500443CE4 /* ScannedItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannedItemViewController.h; sourceTree = "<group>"; };
 		30A7791B161BCB7500443CE4 /* ScannedItemViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScannedItemViewController.mm; sourceTree = "<group>"; };
 		30A7791C161BCB7500443CE4 /* ScannedItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScannedItemView.xib; sourceTree = "<group>"; };
-		30A77921161BD1AE00443CE4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		30A77925161BD6E300443CE4 /* monalisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monalisa.png; path = ../monalisa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,11 +109,11 @@
 		3078F10B164AEA810064B3D3 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				308296EF166E8F530077FD6A /* logo.png */,
 				3078F10E164AEF940064B3D3 /* lastitemsviewed.png */,
 				3078F108164AEA780064B3D3 /* scan.png */,
 				3078F110164AF47B0064B3D3 /* settings.png */,
 				30A77925161BD6E300443CE4 /* monalisa.png */,
-				30A77921161BD1AE00443CE4 /* logo.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 				30A7791B161BCB7500443CE4 /* ScannedItemViewController.mm */,
 				30A77916161BCB4C00443CE4 /* ScanQrCodeViewController.mm */,
 				3078F114164AF77F0064B3D3 /* MainViewController.h */,
-				3078F115164AF77F0064B3D3 /* MainViewController.mm */,
+				3078F115164AF77F0064B3D3 /* MainViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -287,12 +287,12 @@
 				30A77904161BCA7200443CE4 /* InfoPlist.strings in Resources */,
 				30A77919161BCB4C00443CE4 /* MainViewController.xib in Resources */,
 				30A7791E161BCB7500443CE4 /* ScannedItemView.xib in Resources */,
-				30A77922161BD1AE00443CE4 /* logo.png in Resources */,
 				30A77926161BD6E300443CE4 /* monalisa.png in Resources */,
 				3078F109164AEA780064B3D3 /* scan.png in Resources */,
 				3078F10F164AEF940064B3D3 /* lastitemsviewed.png in Resources */,
 				3078F111164AF47B0064B3D3 /* settings.png in Resources */,
 				3078F113164AF5BD0064B3D3 /* ScanQrCodeView.xib in Resources */,
+				308296F0166E8F530077FD6A /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +307,7 @@
 				30A7790A161BCA7200443CE4 /* BIDAppDelegate.m in Sources */,
 				30A77918161BCB4C00443CE4 /* ScanQrCodeViewController.mm in Sources */,
 				30A7791D161BCB7500443CE4 /* ScannedItemViewController.mm in Sources */,
-				3078F116164AF77F0064B3D3 /* MainViewController.mm in Sources */,
+				3078F116164AF77F0064B3D3 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

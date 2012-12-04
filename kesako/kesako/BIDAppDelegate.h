@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class MainViewController;
+
 @interface BIDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MainViewController *viewController;
 
 @end

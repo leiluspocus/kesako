@@ -7,17 +7,19 @@
 //
 
 #import "BIDAppDelegate.h"
+#import "MainViewController.h"
 
 @implementation BIDAppDelegate
 
 @synthesize window = _window; 
+@synthesize viewController = _viewController;
+
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // Override point for customization after app launch
-    [[NSBundle mainBundle] loadNibNamed:@"MainViewController" owner:self options:nil];
-    //[self.window addSubview:rootController];
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.viewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

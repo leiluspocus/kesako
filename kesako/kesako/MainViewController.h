@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface MainViewController : UIViewController
+ 
+- (IBAction)scanPressed:(id)sender;
+
+- (IBAction)lastViewedPressed:(id)sender;
+
+- (IBAction)settingsPressed:(id)sender;
 
 @end
