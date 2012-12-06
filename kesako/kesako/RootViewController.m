@@ -6,14 +6,14 @@
 //  Copyright (c) 2012 URI. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "RootViewController.h"
 
-@interface MainViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation MainViewController
-
+@implementation RootViewController
+ 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -41,12 +41,22 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)scanPressed:(id)sender {
+- (IBAction)scanPressed:(id)sender { 
+    [self.view removeFromSuperview];
+    ScanQrCodeViewController * qrCode = [[ScanQrCodeViewController alloc] initWithNibName:@"ScanQrCodeViewController" bundle:nil];
+    [self.view addSubview:qrCode.view];
 }
 
 - (IBAction)lastViewedPressed:(id)sender {
+    [self.view removeFromSuperview];
+    ScannedItemViewController * lastItem = [[ScannedItemViewController alloc] initWithNibName:@"ScannedItemViewController" bundle:nil];
+    [self.view addSubview:lastItem.view];
+    
 }
 
 - (IBAction)settingsPressed:(id)sender {
+    [self.view removeFromSuperview];
+    SettingsViewController * settings = [[SettingsViewController alloc]initWithNibName:@"SettingsViewController" bundle:nil];
+    [self.view addSubview:settings.view];
 }
 @end

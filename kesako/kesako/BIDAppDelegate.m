@@ -7,7 +7,7 @@
 //
 
 #import "BIDAppDelegate.h"
-#import "MainViewController.h"
+#import "RootViewController.h"
 
 @implementation BIDAppDelegate
 
@@ -18,7 +18,7 @@
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // Override point for customization after app launch
-    self.viewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    self.viewController = [[RootViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

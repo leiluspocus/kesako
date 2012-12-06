@@ -6,9 +6,12 @@
 //  Copyright (c) 2012 URI. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h> 
+#include "ScannedItemViewController.h"
+#include "SettingsViewController.h"
+#include "ScanQrCodeViewController.h"
 
-@interface MainViewController : UIViewController
+@interface RootViewController : UIViewController
  
 - (IBAction)scanPressed:(id)sender;
 
