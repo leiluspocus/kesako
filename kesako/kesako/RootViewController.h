@@ -10,6 +10,7 @@
 #include "ScannedItemViewController.h"
 #include "SettingsViewController.h"
 #include "ScanQrCodeViewController.h"
+#include "XMLHelper.h" 
 
 @interface RootViewController : UIViewController
  

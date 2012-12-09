@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    XMLHelper* n = [XMLHelper alloc];
+   // [n loadDataFromXML];
+    NSLog(@"Kikoo g appele");
+    n = nil;
 }
 
 - (void)viewDidUnload

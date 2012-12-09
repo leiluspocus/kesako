@@ -10,4 +10,6 @@
 
 @interface ScannedItemViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UINavigationBar *bar;
+
 @end

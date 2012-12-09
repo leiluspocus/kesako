@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "kesako/RootViewController.m"
-         timestampString = "376458560.072745"
+         timestampString = "376462320.117488"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "53"
-         endingLineNumber = "53"
+         startingLineNumber = "57"
+         endingLineNumber = "57"
          landmarkName = "-lastViewedPressed:"
          landmarkType = "5">
       </FileBreakpoint>

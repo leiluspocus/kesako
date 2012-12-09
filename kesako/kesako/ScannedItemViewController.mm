@@ -13,6 +13,7 @@
 @end
 
 @implementation ScannedItemViewController
+@synthesize bar;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,10 +28,16 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UINavigationItem* item = [[UINavigationItem alloc] initWithTitle:@"kikoo"];
+    
+    item.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:nil action:nil];
+
+    [bar pushNavigationItem:item animated:NO]; 
 }
 
 - (void)viewDidUnload
 {
+    [self setBar:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
