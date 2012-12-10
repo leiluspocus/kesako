@@ -13,16 +13,7 @@
 @end
 
 @implementation ScannedItemViewController
-@synthesize bar;
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+@synthesize bar; 
 
 - (void)viewDidLoad
 {
@@ -43,9 +34,9 @@
     // e.g. self.myOutlet = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+- (IBAction)switchViews:(id)sender {
+    NSLog(@"Done < switch from LastItemViewed");
+    [self.view removeFromSuperview];
 }
 
 @end

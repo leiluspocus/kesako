@@ -46,6 +46,11 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)switchViews:(id)sender {
+    NSLog(@"Done < switchSettings");
+    [self.view removeFromSuperview];
+}
+
 #pragma mark -
 #pragma mark Picker Data Source Methods
 

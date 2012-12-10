@@ -14,6 +14,11 @@
 
 @interface RootViewController : UIViewController
  
+
+@property(nonatomic, strong) ScanQrCodeViewController * qrCode;
+@property(nonatomic, strong) ScannedItemViewController * itemView;
+@property(nonatomic, strong) SettingsViewController * settingsView;
+
 - (IBAction)scanPressed:(id)sender;
 
 - (IBAction)lastViewedPressed:(id)sender;

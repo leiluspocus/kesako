@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3052900A167059540003AB9F /* base.xml in Resources */ = {isa = PBXBuildFile; fileRef = 30529009167059540003AB9F /* base.xml */; };
+		300DB673167574F900B7D7B1 /* SettingsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 300DB671167574F900B7D7B1 /* SettingsViewController.mm */; };
+		300DB674167574F900B7D7B1 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300DB672167574F900B7D7B1 /* SettingsViewController.xib */; };
 		3052900D1670599A0003AB9F /* XMLHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3052900C1670599A0003AB9F /* XMLHelper.mm */; };
 		306732CF1652E82500F242E7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306732C81652E82500F242E7 /* AddressBook.framework */; };
 		306732D01652E82500F242E7 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306732C91652E82500F242E7 /* AddressBookUI.framework */; };
@@ -23,8 +24,6 @@
 		3078F116164AF77F0064B3D3 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3078F115164AF77F0064B3D3 /* RootViewController.mm */; };
 		308296F0166E8F530077FD6A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 308296EF166E8F530077FD6A /* logo.png */; };
 		308296F8166FB4850077FD6A /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 308296F7166FB4850077FD6A /* sound.png */; };
-		308296FC166FB67C0077FD6A /* SettingsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 308296FA166FB67C0077FD6A /* SettingsViewController.mm */; };
-		308296FD166FB67C0077FD6A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308296FB166FB67C0077FD6A /* SettingsViewController.xib */; };
 		30A778FA161BCA7200443CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778F9161BCA7200443CE4 /* UIKit.framework */; };
 		30A778FC161BCA7200443CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778FB161BCA7200443CE4 /* Foundation.framework */; };
 		30A778FE161BCA7200443CE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A778FD161BCA7200443CE4 /* CoreGraphics.framework */; };
@@ -65,7 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30529009167059540003AB9F /* base.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = base.xml; sourceTree = "<group>"; };
+		300DB670167574F900B7D7B1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		300DB671167574F900B7D7B1 /* SettingsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsViewController.mm; sourceTree = "<group>"; };
+		300DB672167574F900B7D7B1 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		3052900B1670599A0003AB9F /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
 		3052900C1670599A0003AB9F /* XMLHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XMLHelper.mm; sourceTree = "<group>"; };
 		306732C81652E82500F242E7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -83,9 +84,6 @@
 		3078F115164AF77F0064B3D3 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
 		308296EF166E8F530077FD6A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		308296F7166FB4850077FD6A /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
-		308296F9166FB67C0077FD6A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		308296FA166FB67C0077FD6A /* SettingsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsViewController.mm; sourceTree = "<group>"; };
-		308296FB166FB67C0077FD6A /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		309A2BA21652F1E600BD6A41 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		30A778F5161BCA7200443CE4 /* kesako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kesako.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A778F9161BCA7200443CE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -147,8 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				30A7791C161BCB7500443CE4 /* ScannedItemViewController.xib */,
-				308296FB166FB67C0077FD6A /* SettingsViewController.xib */,
 				30A77917161BCB4C00443CE4 /* RootViewController.xib */,
+				300DB672167574F900B7D7B1 /* SettingsViewController.xib */,
 				3078F112164AF5BD0064B3D3 /* ScanQrCodeViewController.xib */,
 			);
 			name = view;
@@ -162,9 +160,9 @@
 				30A7791B161BCB7500443CE4 /* ScannedItemViewController.mm */,
 				30A77916161BCB4C00443CE4 /* ScanQrCodeViewController.mm */,
 				3078F114164AF77F0064B3D3 /* RootViewController.h */,
+				300DB670167574F900B7D7B1 /* SettingsViewController.h */,
+				300DB671167574F900B7D7B1 /* SettingsViewController.mm */,
 				3078F115164AF77F0064B3D3 /* RootViewController.mm */,
-				308296F9166FB67C0077FD6A /* SettingsViewController.h */,
-				308296FA166FB67C0077FD6A /* SettingsViewController.mm */,
 				3052900B1670599A0003AB9F /* XMLHelper.h */,
 				3052900C1670599A0003AB9F /* XMLHelper.mm */,
 			);
@@ -218,7 +216,6 @@
 		30A778FF161BCA7200443CE4 /* kesako */ = {
 			isa = PBXGroup;
 			children = (
-				30529009167059540003AB9F /* base.xml */,
 				3078F10D164AEA970064B3D3 /* controller */,
 				3078F10C164AEA910064B3D3 /* view */,
 				3078F10B164AEA810064B3D3 /* img */,
@@ -326,9 +323,8 @@
 				3078F113164AF5BD0064B3D3 /* ScanQrCodeViewController.xib in Resources */,
 				308296F0166E8F530077FD6A /* logo.png in Resources */,
 				308296F8166FB4850077FD6A /* sound.png in Resources */,
-				308296FD166FB67C0077FD6A /* SettingsViewController.xib in Resources */,
-				3052900A167059540003AB9F /* base.xml in Resources */,
 				30D4F26D1673E7F400148E57 /* beep-beep.aiff in Resources */,
+				300DB674167574F900B7D7B1 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,8 +340,8 @@
 				30A77918161BCB4C00443CE4 /* ScanQrCodeViewController.mm in Sources */,
 				30A7791D161BCB7500443CE4 /* ScannedItemViewController.mm in Sources */,
 				3078F116164AF77F0064B3D3 /* RootViewController.mm in Sources */,
-				308296FC166FB67C0077FD6A /* SettingsViewController.mm in Sources */,
 				3052900D1670599A0003AB9F /* XMLHelper.mm in Sources */,
+				300DB673167574F900B7D7B1 /* SettingsViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,16 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZXingWidgetController.h"
+#import <ZXingWidgetController.h>
+#import <QRCodeReader.h>
 
-@interface ScanQrCodeViewController : UIViewController <ZXingDelegate> {
-    IBOutlet UITextView *resultsView;
-    NSString *resultsToDisplay;
-}
-@property (nonatomic, retain) IBOutlet UITextView *resultsView;
-@property (nonatomic, copy) NSString *resultsToDisplay;
+@interface ScanQrCodeViewController : UIViewController <ZXingDelegate>
 
+@property (nonatomic, strong) IBOutlet UITextView *resultsView;
+@property (nonatomic, strong) NSString *resultsToDisplay;
 
 - (IBAction)scanPressed:(id)sender;
 
+- (IBAction)switchViews:(id)sender;
 @end

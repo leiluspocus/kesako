@@ -13,7 +13,10 @@
 @end
 
 @implementation RootViewController
- 
+@synthesize qrCode;
+@synthesize settingsView;
+@synthesize itemView;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -47,20 +50,20 @@
 
 - (IBAction)scanPressed:(id)sender { 
     [self.view removeFromSuperview];
-    ScanQrCodeViewController * qrCode = [[ScanQrCodeViewController alloc] initWithNibName:@"ScanQrCodeViewController" bundle:nil];
+     qrCode = [[ScanQrCodeViewController alloc] initWithNibName:@"ScanQrCodeViewController" bundle:nil];
     [self.view addSubview:qrCode.view];
 }
 
 - (IBAction)lastViewedPressed:(id)sender {
     [self.view removeFromSuperview];
-    ScannedItemViewController * lastItem = [[ScannedItemViewController alloc] initWithNibName:@"ScannedItemViewController" bundle:nil];
-    [self.view addSubview:lastItem.view];
+    itemView = [[ScannedItemViewController alloc] initWithNibName:@"ScannedItemViewController" bundle:nil];
+    [self.view addSubview:itemView.view];
     
 }
 
 - (IBAction)settingsPressed:(id)sender {
     [self.view removeFromSuperview];
-    SettingsViewController * settings = [[SettingsViewController alloc]initWithNibName:@"SettingsViewController" bundle:nil];
-    [self.view addSubview:settings.view];
+    settingsView = [[SettingsViewController alloc]initWithNibName:@"SettingsViewController" bundle:nil];
+    [self.view addSubview:settingsView.view];
 }
 @end

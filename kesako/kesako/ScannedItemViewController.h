@@ -10,6 +10,8 @@
 
 @interface ScannedItemViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UINavigationBar *bar;
+@property (strong, nonatomic) IBOutlet UINavigationBar *bar;
+
+- (IBAction)switchViews:(id)sender;
 
 @end
