@@ -61,21 +61,27 @@ static ApplicationHelper* _sharedMySingleton = nil;
 
 
 -(Artwork*) getArtworkFromQrCode: (NSString *) qr {
-    NSLog(@"getartfromwork");
+    NSLog(@"getartfromwork %d looking for ", sizeof(contentOfXmlFile));
+    NSLog(qr);
+    NSLog(@"*****");
     int i=0;
-    for ( i=0; i < sizeof(contentOfXmlFile) ; ++i) {
-        if ( [ contentOfXmlFile[i] qrcode ] == qr ) {
+    for ( i=0; i < 2 ; ++i) {
+        if ( [[ contentOfXmlFile[i] qrcode ] isEqualToString:qr ] == 1) {
             NSLog(@"Artwork found ----> %d", i);
             lastArtwork = i;
             return contentOfXmlFile[i];
         }
     }
+    NSLog(@"Artwork not found!");
+    lastArtwork = -1;
     return nil;
 }
 
 
 -(Artwork*) getCurrentArtwork {
-    return contentOfXmlFile[lastArtwork];
+    if ( lastArtwork >= 0 )
+        return contentOfXmlFile[lastArtwork];
+    return nil;
 }
 
 @end

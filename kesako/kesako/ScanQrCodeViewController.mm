@@ -43,7 +43,7 @@
 - (void)zxingController:(ZXingWidgetController*)controller didScanResult:(NSString *)result {
     NSLog(@"kikoo result");
     NSLog(result);
-    Artwork * res = [[ApplicationHelper sharedMySingleton] getArtworkFromQrCode:@"scream"];
+    Artwork * res = [[ApplicationHelper sharedMySingleton] getArtworkFromQrCode:result];
     NSLog( [res qrcode]);
     itemView = [[ScannedItemViewController alloc] initWithNibName:@"ScannedItemViewController" bundle:nil];
     [self.view removeFromSuperview];

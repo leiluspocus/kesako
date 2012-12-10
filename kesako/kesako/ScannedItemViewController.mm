@@ -22,10 +22,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     Artwork * res = [[ApplicationHelper sharedMySingleton] getCurrentArtwork];
-    NSLog([res brief]);
-    [brief setText:[res brief]];
-    [title setText:[res name]];
-    
+    if ( res == nil ) {
+        [brief setText:@"You scanned nothing so far! Press Back, then Scan and go have some fun with the scan tool!"];
+        [title setText:@"Hmm..."];
+    }
+    else {
+        NSLog([res brief]);
+        [brief setText:[res brief]];
+        [title setText:[res name]];
+    }
     UINavigationItem* item = [[UINavigationItem alloc] initWithTitle:[res name]];
 
     [bar pushNavigationItem:item animated:NO]; 
