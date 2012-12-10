@@ -11,6 +11,7 @@
 		300DB674167574F900B7D7B1 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300DB672167574F900B7D7B1 /* SettingsViewController.xib */; };
 		300DB6771675917900B7D7B1 /* ApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 300DB6761675917900B7D7B1 /* ApplicationHelper.m */; };
 		300DB67A16759A4800B7D7B1 /* Artwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 300DB67916759A4800B7D7B1 /* Artwork.m */; };
+		300DB67D1675C65300B7D7B1 /* XMLToObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 300DB67C1675C65300B7D7B1 /* XMLToObjectParser.m */; };
 		3052900D1670599A0003AB9F /* XMLHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3052900C1670599A0003AB9F /* XMLHelper.mm */; };
 		306732CF1652E82500F242E7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306732C81652E82500F242E7 /* AddressBook.framework */; };
 		306732D01652E82500F242E7 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306732C91652E82500F242E7 /* AddressBookUI.framework */; };
@@ -73,6 +74,8 @@
 		300DB6761675917900B7D7B1 /* ApplicationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationHelper.m; sourceTree = "<group>"; };
 		300DB67816759A4800B7D7B1 /* Artwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artwork.h; sourceTree = "<group>"; };
 		300DB67916759A4800B7D7B1 /* Artwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artwork.m; sourceTree = "<group>"; };
+		300DB67B1675C65300B7D7B1 /* XMLToObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLToObjectParser.h; sourceTree = "<group>"; };
+		300DB67C1675C65300B7D7B1 /* XMLToObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLToObjectParser.m; sourceTree = "<group>"; };
 		3052900B1670599A0003AB9F /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
 		3052900C1670599A0003AB9F /* XMLHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XMLHelper.mm; sourceTree = "<group>"; };
 		306732C81652E82500F242E7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -175,6 +178,8 @@
 				300DB6761675917900B7D7B1 /* ApplicationHelper.m */,
 				300DB67816759A4800B7D7B1 /* Artwork.h */,
 				300DB67916759A4800B7D7B1 /* Artwork.m */,
+				300DB67B1675C65300B7D7B1 /* XMLToObjectParser.h */,
+				300DB67C1675C65300B7D7B1 /* XMLToObjectParser.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				300DB673167574F900B7D7B1 /* SettingsViewController.mm in Sources */,
 				300DB6771675917900B7D7B1 /* ApplicationHelper.m in Sources */,
 				300DB67A16759A4800B7D7B1 /* Artwork.m in Sources */,
+				300DB67D1675C65300B7D7B1 /* XMLToObjectParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

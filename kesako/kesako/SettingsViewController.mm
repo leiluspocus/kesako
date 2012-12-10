@@ -15,15 +15,6 @@
 @implementation SettingsViewController
 @synthesize pickerData;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -40,11 +31,7 @@
     self.singlePicker = nil;
     self.pickerData = nil;
 }
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
+ 
 
 - (IBAction)switchViews:(id)sender {
     NSLog(@"Done < switchSettings");
