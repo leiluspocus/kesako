@@ -135,7 +135,7 @@
 						<string key="NSFrame">{{124, 366}, {72, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="246060941"/>
+						<reference key="NSNextKeyView" ref="986128170"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -168,7 +168,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIToolbar" id="246060941">
+					<object class="IBUIToolbar" id="986128170">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">266</int>
 						<string key="NSFrame">{{0, 416}, {320, 44}}</string>
@@ -180,11 +180,11 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIBarStyle">2</int>
 						<array class="NSMutableArray" key="IBUIItems">
-							<object class="IBUIBarButtonItem" id="117783039">
+							<object class="IBUIBarButtonItem" id="402925531">
 								<string key="IBUITitle">Back</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIStyle">1</int>
-								<reference key="IBUIToolbar" ref="246060941"/>
+								<reference key="IBUIToolbar" ref="986128170"/>
 							</object>
 						</array>
 					</object>
@@ -237,8 +237,17 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">readText:</string>
+						<reference key="source" ref="838447671"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">35</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">switchViews:</string>
-						<reference key="source" ref="117783039"/>
+						<reference key="source" ref="402925531"/>
 						<reference key="destination" ref="372490531"/>
 					</object>
 					<int key="connectionID">32</int>
@@ -260,7 +269,7 @@
 							<reference ref="544870074"/>
 							<reference ref="209069987"/>
 							<reference ref="838447671"/>
-							<reference ref="246060941"/>
+							<reference ref="986128170"/>
 							<reference ref="298729793"/>
 						</array>
 						<reference key="parent" ref="0"/>
@@ -304,16 +313,16 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">30</int>
-						<reference key="object" ref="246060941"/>
+						<reference key="object" ref="986128170"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="117783039"/>
+							<reference ref="402925531"/>
 						</array>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">31</int>
-						<reference key="object" ref="117783039"/>
-						<reference key="parent" ref="246060941"/>
+						<reference key="object" ref="402925531"/>
+						<reference key="parent" ref="986128170"/>
 					</object>
 				</array>
 			</object>
@@ -335,7 +344,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">34</int>
+			<int key="maxID">35</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -355,12 +364,17 @@
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="bar">UINavigationBar</string>
+						<string key="brief">UITextView</string>
 						<string key="title">UILabel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="bar">
 							<string key="name">bar</string>
 							<string key="candidateClassName">UINavigationBar</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="brief">
+							<string key="name">brief</string>
+							<string key="candidateClassName">UITextView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="title">
 							<string key="name">title</string>

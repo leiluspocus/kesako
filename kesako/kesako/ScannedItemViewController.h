@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ApplicationHelper.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface ScannedItemViewController : UIViewController
 
@@ -18,5 +19,6 @@
 @property (weak, nonatomic) IBOutlet UITextView *brief;
 
 - (IBAction)switchViews:(id)sender;
+- (IBAction)readText:(id)sender;
 
 @end

@@ -12,6 +12,8 @@
 		300DB6771675917900B7D7B1 /* ApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 300DB6761675917900B7D7B1 /* ApplicationHelper.m */; };
 		300DB67A16759A4800B7D7B1 /* Artwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 300DB67916759A4800B7D7B1 /* Artwork.m */; };
 		300DB67D1675C65300B7D7B1 /* XMLToObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 300DB67C1675C65300B7D7B1 /* XMLToObjectParser.m */; };
+		300DB68416764FA600B7D7B1 /* monalisa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 300DB68216764FA500B7D7B1 /* monalisa.wav */; };
+		300DB68516764FA600B7D7B1 /* scream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 300DB68316764FA500B7D7B1 /* scream.wav */; };
 		3052900D1670599A0003AB9F /* XMLHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3052900C1670599A0003AB9F /* XMLHelper.mm */; };
 		306732CF1652E82500F242E7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306732C81652E82500F242E7 /* AddressBook.framework */; };
 		306732D01652E82500F242E7 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306732C91652E82500F242E7 /* AddressBookUI.framework */; };
@@ -76,6 +78,8 @@
 		300DB67916759A4800B7D7B1 /* Artwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artwork.m; sourceTree = "<group>"; };
 		300DB67B1675C65300B7D7B1 /* XMLToObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLToObjectParser.h; sourceTree = "<group>"; };
 		300DB67C1675C65300B7D7B1 /* XMLToObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLToObjectParser.m; sourceTree = "<group>"; };
+		300DB68216764FA500B7D7B1 /* monalisa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monalisa.wav; path = ../../../../Downloads/monalisa.wav; sourceTree = "<group>"; };
+		300DB68316764FA500B7D7B1 /* scream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = scream.wav; path = ../../../../Downloads/scream.wav; sourceTree = "<group>"; };
 		3052900B1670599A0003AB9F /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
 		3052900C1670599A0003AB9F /* XMLHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XMLHelper.mm; sourceTree = "<group>"; };
 		306732C81652E82500F242E7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -231,6 +235,8 @@
 		30A778FF161BCA7200443CE4 /* kesako */ = {
 			isa = PBXGroup;
 			children = (
+				300DB68216764FA500B7D7B1 /* monalisa.wav */,
+				300DB68316764FA500B7D7B1 /* scream.wav */,
 				3078F10D164AEA970064B3D3 /* controller */,
 				3078F10C164AEA910064B3D3 /* view */,
 				3078F10B164AEA810064B3D3 /* img */,
@@ -340,6 +346,8 @@
 				308296F8166FB4850077FD6A /* sound.png in Resources */,
 				30D4F26D1673E7F400148E57 /* beep-beep.aiff in Resources */,
 				300DB674167574F900B7D7B1 /* SettingsViewController.xib in Resources */,
+				300DB68416764FA600B7D7B1 /* monalisa.wav in Resources */,
+				300DB68516764FA600B7D7B1 /* scream.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

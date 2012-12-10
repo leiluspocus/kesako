@@ -50,5 +50,12 @@
     NSLog(@"Done < switch from LastItemViewed");
     [self.view removeFromSuperview];
 }
+ 
+
+- (IBAction)readText:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"monalisa"  ofType:@"mp3"];
+    SystemSoundID soundID; AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:path], &soundID);
+    AudioServicesPlaySystemSound (soundID);
+}
 
 @end

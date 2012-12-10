@@ -8,22 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Artwork : NSObject  {
-    NSString * qrcode;
-    NSString * name;
-    NSString * brief;
+@interface Artwork : NSObject {
+	NSString *qrcode;
+	NSString *name;
+	NSString *brief; 
 }
 
-- (id) init;
-
-- (NSString *) qrcode;
-- (NSString *) name;
-- (NSString *) brief;
-
-- (void) setQrCode:(NSString*) qr;
-
-- (void) setName:(NSString*) n;
-
-- (void) setBrief:(NSString*) b;
+@property (nonatomic, retain) NSString *qrcode;
+@property (nonatomic, retain) NSString *name;
+@property (nonatomic, retain) NSString *brief; 
 
 @end
