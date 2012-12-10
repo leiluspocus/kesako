@@ -11,7 +11,8 @@
 @implementation ScanQrCodeViewController
 @synthesize resultsView;
 @synthesize resultsToDisplay;
- 
+@synthesize itemView;
+
 - (void)viewDidLoad
 { 
     [super viewDidLoad]; 
@@ -42,6 +43,11 @@
 - (void)zxingController:(ZXingWidgetController*)controller didScanResult:(NSString *)result {
     NSLog(@"kikoo result");
     NSLog(result);
+    Artwork * res = [[ApplicationHelper sharedMySingleton] getArtworkFromQrCode:@"scream"];
+    NSLog( [res qrcode]);
+    itemView = [[ScannedItemViewController alloc] initWithNibName:@"ScannedItemViewController" bundle:nil];
+    [self.view removeFromSuperview];
+    [self.view addSubview: itemView.view];
     self.resultsToDisplay = result;
     if (self.isViewLoaded) {
         [resultsView setText:resultsToDisplay];

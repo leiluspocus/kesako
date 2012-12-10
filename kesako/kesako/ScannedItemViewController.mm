@@ -14,14 +14,19 @@
 
 @implementation ScannedItemViewController
 @synthesize bar; 
+@synthesize title;
+@synthesize brief;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    UINavigationItem* item = [[UINavigationItem alloc] initWithTitle:@"kikoo"];
+    Artwork * res = [[ApplicationHelper sharedMySingleton] getCurrentArtwork];
+    NSLog([res brief]);
+    [brief setText:[res brief]];
+    [title setText:[res name]];
     
-    item.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    UINavigationItem* item = [[UINavigationItem alloc] initWithTitle:[res name]];
 
     [bar pushNavigationItem:item animated:NO]; 
 }
@@ -29,6 +34,8 @@
 - (void)viewDidUnload
 {
     [self setBar:nil];
+    [self setTitle:nil];
+    [self setBrief:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

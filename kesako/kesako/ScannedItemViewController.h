@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ApplicationHelper.h"
 
 @interface ScannedItemViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UINavigationBar *bar;
+
+@property (weak, nonatomic) IBOutlet UILabel *title;
+
+@property (weak, nonatomic) IBOutlet UITextView *brief;
 
 - (IBAction)switchViews:(id)sender;
 

@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <ZXingWidgetController.h>
 #import <QRCodeReader.h>
+#import "ApplicationHelper.h"
+#import "ScannedItemViewController.h"
 
 @interface ScanQrCodeViewController : UIViewController <ZXingDelegate>
 
+@property(nonatomic, strong) ScannedItemViewController * itemView;
 @property (nonatomic, strong) IBOutlet UITextView *resultsView;
 @property (nonatomic, strong) NSString *resultsToDisplay;
 
